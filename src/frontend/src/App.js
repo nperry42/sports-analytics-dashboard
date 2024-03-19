@@ -1,10 +1,8 @@
 //import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import {TeamPage} from "./pages/TeamPage";
 import {MatchPage} from "./pages/MatchPage";
-import {MatchDetailCard} from "./components/MatchDetailCard";
-import {MatchSmallCard} from "./components/MatchSmallCard";
 
 function App() {
   return (
