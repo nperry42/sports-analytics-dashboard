@@ -2,22 +2,18 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 20px;;
 
-  .match-date, .match-venue, .match-result{
+
+  .match-date, .match-venue, .match-result {
     margin-top: 10px;
   }
-
-  .additional-detail{
+  .additional-detail {
     text-align: right;
-    & > p{
-      margin-bottom: 10px;
+    & > p {
+      margin-bottom: 20px;;
     }
+
   }
 
-  span.vs {}
-  h1 {}
-  h2.match-date {}
-  h3.match-venue {}
-  h3.match-result {}
 }
